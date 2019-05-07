@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9731D67E218C4E6900759E41 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5865D218013C300A341D2 /* VideoCell.swift */; };
 		97A5862C218012B000A341D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5862B218012B000A341D2 /* AppDelegate.swift */; };
 		97A5862E218012B000A341D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5862D218012B000A341D2 /* ViewController.swift */; };
 		97A58631218012B000A341D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A5862F218012B000A341D2 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		97A58636218012B100A341D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A58634218012B100A341D2 /* LaunchScreen.storyboard */; };
 		97A58641218012B200A341D2 /* Custom_Many_CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A58640218012B200A341D2 /* Custom_Many_CellTests.swift */; };
 		97A5864C218012B200A341D2 /* Custom_Many_CellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5864B218012B200A341D2 /* Custom_Many_CellUITests.swift */; };
+		97A5865A218012EC00A341D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A58659218012EC00A341D2 /* TableViewController.swift */; };
+		97A5865C218013B600A341D2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5865B218013B600A341D2 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		97A58647218012B200A341D2 /* Custom Many CellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom Many CellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A5864B218012B200A341D2 /* Custom_Many_CellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Many_CellUITests.swift; sourceTree = "<group>"; };
 		97A5864D218012B200A341D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A58659218012EC00A341D2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		97A5865B218013B600A341D2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		97A5865D218013C300A341D2 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				97A5862B218012B000A341D2 /* AppDelegate.swift */,
 				97A5862D218012B000A341D2 /* ViewController.swift */,
 				97A5862F218012B000A341D2 /* Main.storyboard */,
+				97A58659218012EC00A341D2 /* TableViewController.swift */,
+				97A5865B218013B600A341D2 /* TableViewCell.swift */,
 				97A58632218012B100A341D2 /* Assets.xcassets */,
 				97A58634218012B100A341D2 /* LaunchScreen.storyboard */,
 				97A58637218012B100A341D2 /* Info.plist */,
@@ -110,6 +118,7 @@
 		97A5863F218012B200A341D2 /* Custom Many CellTests */ = {
 			isa = PBXGroup;
 			children = (
+				97A5865D218013C300A341D2 /* VideoCell.swift */,
 				97A58640218012B200A341D2 /* Custom_Many_CellTests.swift */,
 				97A58642218012B200A341D2 /* Info.plist */,
 			);
@@ -257,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97A5862E218012B000A341D2 /* ViewController.swift in Sources */,
+				97A5865C218013B600A341D2 /* TableViewCell.swift in Sources */,
+				97A5865A218012EC00A341D2 /* TableViewController.swift in Sources */,
 				97A5862C218012B000A341D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97A58641218012B200A341D2 /* Custom_Many_CellTests.swift in Sources */,
+				9731D67E218C4E6900759E41 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
